@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Garima Munjal - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<style>
+/* Reset some default styling */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navigation styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Hero section styles */
+#hero {
+  background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* Projects section styles */
+#projects {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.project {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-item {
+  flex-basis: calc(33.33% - 30px);
+  margin: 15px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.project-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.project-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Add more styling for any other elements in your project section */
+
+/* About section styles */
+#about {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Style for your profile image */
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more styling for any other elements in your about section */
+
+/* About section styles */
+#about {
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* Projects section styles */
+.project {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.project-item {
+  margin-bottom: 40px;
+}
+
+.project-item img {
+  max-width: 100%;
+}
+
+/* Contact section styles */
+#contact {
+  background-color: #f5f5f5;
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+}
+</style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Garima Munjal</div>
+      <ul>
+	<li><a href="#hero"></a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm Garima Munjal</h1>
+      <p>B.Tech CSE student and Web Designer</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>I'm a passionate web designer currently pursuing my B.Tech in Computer Science and Engineering. I love creating beautiful and functional websites that provide great user experiences.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="project">
+      <h2>My Projects</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <img src="https://t3.ftcdn.net/jpg/05/57/67/16/360_F_557671603_o4kIOr3saJJeaE03CdOCQhq9ATziyAHm.jpg" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>Created ATM Software using python.</p>
+        </div>
+        <div class="project-item">
+          <img src="https://img.favpng.com/0/20/2/project-icon-business-management-icon-project-management-icon-png-favpng-05qyCDKe21ZX6CfmJZGaDXzN7.jpg" alt="Project 2">
+          <h3>UI Desiging</h3>
+          <p>Designed UI interface for proble solving project.</p>
+        </div>
+        <!-- Add more projects as needed -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-content">
+      <h2>Contact Me</h2>
+      <p>If you're interested in working together or just want to say hello, feel free to reach out to me:</p>
+      <a href="mailto:garimamunjal68@gmail.com">garimamunjal68@gmail.com</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Garima Munjal. All rights reserved.</p>
+  </footer>
+</body>
+</html>
